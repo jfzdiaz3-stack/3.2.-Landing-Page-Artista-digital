@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 250">
+
+    <!-- Nombre principal -->
+    <text x="180"
+          y="130"
+          font-family="Georgia"
+          font-size="76"
+          fill="#E9D5FF">
+        Nébula
+    </text>
+| logo.svg | Creación propia | - | Autoría propia || logo.svg | Creación propia | - | Autoría propia |
+
+    <!-- Luna -->
+    <path d="M420 50
+             A10 10 0 1 1 420 70
+             A7 7 0 1 0 420 50"
+          fill="#C4B5FD"/>
+
+    <!-- Estrella principal -->
+    <path d="M450 25
+             L455 42
+             L472 47
+             L455 52
+             L450 69
+             L445 52
+             L428 47
+             L445 42 Z"
+          fill="#A855F7"/>
+
+    <circle cx="450" cy="47" r="3" fill="#ffffff"/>
+
+    <!-- Destello -->
+    <path d="M475 25
+             L477 31
+             L483 33
+             L477 35
+             L475 41
+             L473 35
+             L467 33
+             L473 31 Z"
+          fill="#ffffff"/>
+
+    <!-- Planeta -->
+    <circle cx="490" cy="60" r="10" fill="#8B5CF6"/>
+
+    <ellipse cx="490"
+             cy="60"
+             rx="18"
+             ry="5"
+             fill="none"
+             stroke="#C4B5FD"
+             stroke-width="2"/>
+
+    <!-- Estrella secundaria -->
+    <path d="M515 35
+             L517 41
+             L523 43
+             L517 45
+             L515 51
+             L513 45
+             L507 43
+             L513 41 Z"
+          fill="#C4B5FD"/>
+
+    <!-- Punto brillante -->
+    <circle cx="535" cy="25" r="2" fill="#ffffff"/>
+
+    <!-- Línea decorativa -->
+    <line x1="220"
+          y1="155"
+          x2="580"
+          y2="155"
+          stroke="#A855F7"
+          stroke-width="3"/>
+
+    <!-- Subtítulo -->
+    <text x="275"
+          y="195"
+          font-family="Arial"
+          font-size="20"
+          letter-spacing="5"
+          fill="#C4B5FD">
+        DIGITAL ARTIST
+    </text>
+
+</svg>
