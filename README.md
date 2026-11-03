@@ -6,6 +6,10 @@
 |----------|----------|----------|----------|
 | hero.webp | Auvryon | Pixabay | Licencia Pixabay |
 | logo.svg | Creación propia | - | Autoría propia |
+| imagen1.webp | Auvryon | Pixabay | Licencia Pixabay |
+| imagen2.webp | Auvryon | Pixabay | Licencia Pixabay |
+| imagen3.webp | Auvryon | Pixabay | Licencia Pixabay |
+
 
 ## Justificación Técnica de Formatos
 
