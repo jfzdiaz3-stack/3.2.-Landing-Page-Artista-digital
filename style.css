@@ -25,14 +25,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #020617; 
-    border-bottom: 1px solid #1e293b; 
+    background: #020617;
+    border-bottom: 1px solid #1e293b;
     z-index: 1000;
 }
 
-header img {
-    height: 70px;
-}
 
 nav {
     display: flex;
@@ -88,7 +85,7 @@ nav a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    background: #090d16; 
+    background: #090d16;
     padding: 2.5rem;
     border: 1px solid #1e293b;
     z-index: 20;
@@ -166,4 +163,48 @@ footer {
     padding: 2rem;
     background: #020617;
     border-top: 1px solid #1e293b;
+}
+
+/*LOGO NEBULA*/
+.logo-nebula {
+    width: 220px;
+    height: auto;
+    cursor: pointer;
+    transition: transform .3s ease;
+}
+
+.logo-nebula:hover {
+    transform: scale(1.05);
+}
+
+.logo-nebula text {
+    transition: .3s;
+}
+
+.logo-nebula:hover text {
+    fill: #e6dfff;
+}
+
+
+/*VISOR DE IMÁGENES*/
+.visor{
+    text-align:center;
+    margin-bottom:2rem;
+}
+
+#imagenPrincipal{
+    max-width:900px;
+    width:100%;
+    border-radius:15px;
+    transition:.3s;
+}
+
+.miniatura{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.miniatura:hover{
+    transform:scale(1.05);
+    opacity:.8;
 }
