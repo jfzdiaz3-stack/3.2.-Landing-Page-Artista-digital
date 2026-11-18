@@ -55,3 +55,21 @@ Se ha utilizado el formato MP3 por ser un formato de compresión con pérdida y 
 - FreeConvert para la compresión y optimización del vídeo
 - Online MP3 Cutter para el recorte del audio a una duración exacta de 15 segundos.
 - Online Audio Converter para la conversión y exportación del audio en formato MP3.
+
+
+
+## Compatibilidad y Navegadores
+
+Se ha verificado el correcto funcionamiento de la página en:
+
+- Google Chrome
+- Mozilla Firefox
+- Microsoft Edge
+
+También se ha comprobado la adaptación responsive mediante las herramientas DevTools en diferentes resoluciones de pantalla.
+
+## Licencia de la Obra
+
+Este proyecto se distribuye bajo licencia Creative Commons CC BY-NC 4.0.
+
+En el caso de utilizar un recurso con licencia CC BY-SA, cualquier obra derivada debería mantenerse bajo una licencia compatible que respetase la cláusula Share Alike.
