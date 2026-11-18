@@ -164,19 +164,13 @@
 
             <h2>Vídeo de presentación</h2>
 
-            <figure>
+            <button id="abrirModal" class="btn-video">
+                Ver Reel de Animación
+            </button>
 
-                <video controls poster="assets/img/poster.webp">
-
-                    <source src="assets/video/presentacion.mp4" type="video/mp4">
-
-                </video>
-
-                <figcaption>
-                    Vídeo de olenchic obtenido de Pixabay (Licencia Pixabay).
-                </figcaption>
-
-            </figure>
+            <p class="credito-video">
+                Vídeo de olenchic obtenido de Pixabay (Licencia Pixabay).
+            </p>
 
         </section>
 
@@ -188,11 +182,17 @@
 
             <figure>
 
-                <audio controls>
+                <audio id="audioEspacial">
 
                     <source src="assets/audio/audio.mp3" type="audio/mpeg">
 
                 </audio>
+
+                <button id="botonAudio">
+
+                    Escuchar ambiente espacial
+
+                </button>
 
                 <figcaption>
                     Audio "Dancing Stars" de BusinessStar obtenido de Pixabay (Licencia Pixabay).
@@ -217,6 +217,24 @@
 
         </section>
 
+        // MODAL DE VÍDEO
+
+        <div id="modalVideo" class="modal">
+
+            <div class="modal-contenido">
+
+                <span id="cerrarModal">&times;</span>
+
+                <video id="videoModal" poster="assets/img/poster.webp">
+
+                    <source src="assets/video/presentacion.mp4" type="video/mp4">
+
+                </video>
+
+            </div>
+
+        </div>
+
     </main>
 
     <footer>
@@ -227,7 +245,7 @@
 
     </footer>
 
-    
+
     <script src="script.js"></script>
 
 </body>
